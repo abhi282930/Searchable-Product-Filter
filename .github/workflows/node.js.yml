@@ -1,6 +1,7 @@
 name: deploy_staging
 on:
   workflow_dispatch:
+
 jobs:
   manual_deploy:
     runs-on: react-runner
